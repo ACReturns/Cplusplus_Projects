@@ -31,6 +31,23 @@ class Choices
 		}
 };
 
+class StringVerification
+{
+public:
+	string Verify(string input)
+	{
+		input[0] = toupper(input[0]);
+
+		// Ensure all letters after the first one are in line with the expection of lowercase
+		for (int i = 1; i < input.length(); i++)
+		{
+			input[i] = tolower(input[i]);
+		}
+
+		return input;
+	}
+};
+
 class Results
 {
 	public:
@@ -70,11 +87,12 @@ class Rematch
 		string userResponse;
 		bool RematchCPU()
 		{
-			cout << "Would you like to play again? (Y / N)" << endl;
+			StringVerification stringVerify;
+			cout << "Would you like to play again? (Y / Yes)" << endl;
 			cin >> userResponse;
-			userResponse = toupper(userResponse[0]);
+			userResponse = stringVerify.Verify(userResponse);
 
-			if (userResponse == "Y")
+			if (userResponse == "Y" || userResponse == "Yes")
 			{
 				cout << "Rematching CPU" << endl << endl;
 				return true;
@@ -104,18 +122,14 @@ int main()
 	Results result;
 	Score score;
 	Rematch rematch;
+	StringVerification stringVerify;
 	
 	while (retryMatch)
 	{
 		start.StartGame();
 		cin >> playerOption;
-		playerOption[0] = toupper(playerOption[0]);
 
-		// Ensure all letters after the first one are in line with the expection of lowercase
-		for (int i = 1; i < playerOption.length(); i++)
-		{
-			playerOption[i] = tolower(playerOption[i]);
-		}
+		playerOption = stringVerify.Verify(playerOption);
 
 		randomSelect = rand() % 3;
 		cpuOption = handOptions[randomSelect];
