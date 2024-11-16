@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Github\\Cplusplus_Projects\\RPS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C06B647E-DE78-456E-B90F-7DF22BD20915}|RPS.vcxproj|D:\\Github\\Cplusplus_Projects\\RPS\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C06B647E-DE78-456E-B90F-7DF22BD20915}|RPS.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{654069C0-13F7-4E2C-876E-120C2DA817A9}|RPS.vcxproj|D:\\Github\\Cplusplus_Projects\\RPS\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{654069C0-13F7-4E2C-876E-120C2DA817A9}|RPS.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "D:\\Github\\Cplusplus_Projects\\RPS\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAHAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-25T18:32:50.73Z",
+              "WhenOpened": "2024-11-15T06:10:26.809Z",
               "EditorCaption": ""
             }
           ]

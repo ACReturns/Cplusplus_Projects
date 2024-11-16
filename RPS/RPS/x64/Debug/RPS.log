@@ -1,0 +1,4 @@
+﻿  Main.cpp
+D:\Github\Cplusplus_Projects\RPS\Main.cpp(91,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Github\Cplusplus_Projects\RPS\Main.cpp(54): warning C4715: 'Results::MatchUps': not all control paths return a value
+  RPS.vcxproj -> D:\Github\Cplusplus_Projects\RPS\x64\Debug\RPS.exe
